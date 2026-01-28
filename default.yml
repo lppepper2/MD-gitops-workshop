@@ -8,11 +8,11 @@
 policies:
 queries:
 agent_options:
-  path: ./lib/agent-options.yml
-controls: # This cannot be set here and in no-team.yml
+  path: /Users/andrea/Documents/GitHub/MD-gitops-workshop/lib/agent-options.yml
+# Do not set 'controls' here; setting it in both this file and no-team.yml will cause a configuration error.
 org_settings:
   fleet_desktop:
-    transparency_url:htps://catoftheday.com
+    transparency_url: https://catoftheday.com
   host_expiry_settings:
       host_expiry_enabled: true
       host_expiry_window: 30
