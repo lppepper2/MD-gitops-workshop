@@ -23,7 +23,7 @@ org_settings:
     webhook_settings:
       activities_webhook:
         enable_activities_webhook: true
-        destination_url: https://webhooksaresuperaweome22.com
+        destination_url: https://webhooksaresuperaweome22.org
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
   features:
